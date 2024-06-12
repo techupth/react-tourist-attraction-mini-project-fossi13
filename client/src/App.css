@@ -1,0 +1,38 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 5px;
+}
+
+h1 {
+  margin: 10px;
+  color: rgb(16, 144, 230);
+  text-align: center;
+  font-size: 70px;
+}
+h4 {
+    padding-left: 50px;
+}
+
+
+input {
+  width: 97%;
+  margin: 10px;
+  text-align: center;
+}
+
+.travel-list {
+    display: flex;
+}
+
+.picture0 {
+    border-radius: 30px;
+}
+
+.allpicture {
+    border-radius: 30px;
+}
+
+.tag {
+    text-decoration: underline;
+}
