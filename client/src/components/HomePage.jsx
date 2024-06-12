@@ -13,8 +13,8 @@ function Homepage() {
     console.log(result.data.data);
   };
 
-  const handleClick = (findTravel) => {
-    setFindTravel(findTravel)
+  const handleClick = (value) => {
+    setFindTravel(findTravel +  value + " " )
   };
 
   useEffect(() => {
@@ -61,7 +61,7 @@ function Homepage() {
                 />
               </aside>
               <body className="contanier">
-                <h3>{travel.title}</h3>
+               <a href={travel.url} target="_blank"><h3>{travel.title}</h3></a> 
                 <p>{truncateDescription(travel.description)}</p>
 
                 <a href={travel.url} target="_blank">
